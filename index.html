@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app gives users their horoscope">
+    	<meta name="keywords" content="horoscope, birthday">
+
+		<title>Horoscope Retreiver</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="bigdiv">
+			<h1>Horoscope Wizard</h1>
+			<img src="images/astrology-wheel.png" alt="astrology wheel constellations">
+        	<p>Enter your birthday to see what your horoscope is and what it says about you!</p>
+        	<span>horoscopes provided by <a href="https://www.astrograph.com/horoscopes.php">astrograph</a></span>
+
+			<form>
+				<label for="bdayMonth"> Birthday Month: </label>
+				<input id="bdayMonth" type="text" placeholder="birth month">
+        	    <label for="bdayDay"> Birthday Day: </label>
+				<input id="bdayDay" type="text" placeholder="birthday day">
+			</form>
+
+			<button id="check" type="button" name="button">Check Horoscope</button>
+
+			<h2 id="placeToSee"></h2>
+			<h3 id="otherPlaceToSee1"></h3>
+			<h3 id="otherPlaceToSee2"></h3>
+			<h3 id="otherPlaceToSee3"></h3>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

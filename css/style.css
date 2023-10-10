@@ -1,0 +1,107 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Flex', 'Arial, Helvetica, sans-serif'
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2, h3, p, span, form{
+  text-align: center;
+  display: block;
+  font-weight: 100;
+}
+h1{
+  font-weight: bolder;
+  font-size: 4rem;
+  margin: 1rem;
+  text-shadow: .5rem .3rem .3rem rgba(255, 255, 255, 0.4);
+}
+img{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+.bigdiv{
+  background-color: rgba(204, 179, 227, .7);
+  height: 100%;
+  width: 100rem;
+  margin: 1rem auto;
+  padding: 2rem 2rem 6rem 2rem;
+  border-radius: 5rem;
+  box-shadow: 2rem 2rem 4rem rgba(86, 45, 92, 0.8);
+}
+body{
+  background-color: white;
+}
+h1{
+  color: rgba(158, 93, 218, 0.534);
+}
+span{
+  font-style: italic;
+  margin-bottom: 10px;
+}
+button{
+  display: block;
+  margin: 20px auto;
+}
+ul{
+  width: 100px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  text-align: center;
+  width: 94px;
+  height: 49px;
+  border: 1px solid black;
+}
+h2, h3{
+  font-size: 22px;
+  color: rgb(64, 53, 53);
+  font-weight: 200;
+  margin: 10px 200px ;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 1600px) { 
+  
+  .bigdiv{ 
+      width: 80%; 
+  } 
+} @media screen and (max-width: 1050px) { 
+  
+  .bigdiv { 
+      width: 80%; 
+  } 
+} @media screen and (max-width: 770px) { 
+  
+  .bigdiv{ 
+      width: 80%; 
+  } 
+} @media screen and (max-width: 500px) { 
+  
+  .bigdiv{ 
+      width: 80%; 
+  } 
+} @media screen and (max-width: 475px) { 
+  
+  .bigdiv{ 
+      width: 80%; 
+  } 
+} @media screen and (max-width: 425px) { 
+  
+  .bigdiv{ 
+      width: 80%; 
+  } 
+} @media screen and (max-width: 320px) { 
+  
+  .bigdiv{ 
+      width: 80%; 
+  } 
+} 
